@@ -5,6 +5,7 @@ public static class Core
     public static int Part1(string input)
     {
         var floor = 0;
+        
         foreach (var c in input)
         {
             floor += c switch
@@ -22,6 +23,7 @@ public static class Core
     {
         var floor = 0;
         var i = 0;
+        
         foreach (var c in input)
         {
             floor += c switch
